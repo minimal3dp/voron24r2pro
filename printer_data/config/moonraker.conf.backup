@@ -56,17 +56,3 @@ managed_services: KlipperScreen
 origin: https://github.com/KlipperScreen/KlipperScreen.git
 path: /home/wilsonm/KlipperScreen
 type: git_repo
-
-# Crowsnest update_manager entry
-[update_manager crowsnest]
-type: git_repo
-path: ~/crowsnest
-origin: https://github.com/mainsail-crew/crowsnest.git
-managed_services: crowsnest
-install_script: tools/pkglist.sh
-[update_manager klipper-backup]
-type: git_repo
-path: ~/klipper-backup
-origin: https://github.com/Staubgeborener/klipper-backup.git
-managed_services: moonraker
-primary_branch: main
